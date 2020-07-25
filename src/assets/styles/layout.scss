@@ -1,5 +1,9 @@
+body {
+  margin: 0;
+}
+
 .layout-container {
   display: flex;
-  height: 100vh;
-  font-size: 100px;
+  min-width: 100vw;
+  min-height: 100vh;
 }
