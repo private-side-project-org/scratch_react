@@ -6,6 +6,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .home-title {
@@ -15,4 +17,9 @@
   color: #ffffff;
   margin-left: 2em;
   margin-bottom: 1em;
+  @media (max-width: 900px) {
+    font-size: 40px;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+  }
 }
