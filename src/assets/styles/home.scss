@@ -1,13 +1,11 @@
 .home-container {
   background-image: url('../sunset-1373171_1920.jpg');
   display: flex;
-  width: 100%;
+  flex-grow: 1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .home-title {
@@ -17,9 +15,4 @@
   color: #ffffff;
   margin-left: 2em;
   margin-bottom: 1em;
-  @media (max-width: 900px) {
-    font-size: 40px;
-    margin-left: 0.5em;
-    margin-bottom: 0.5em;
-  }
 }

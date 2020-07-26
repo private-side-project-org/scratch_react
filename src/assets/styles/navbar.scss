@@ -1,21 +1,24 @@
 .navbar-container {
   display: flex;
   justify-content: flex-end;
+  background-color: transparent;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.navbar-listcontainer {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .navbar-items {
-  display: flex;
-  justify-content: space-between;
   color: #ffffff;
   font-size: 24px;
-  padding: 1em 3em 0 0;
   cursor: pointer;
-  :hover {
+  &:hover {
     border-bottom: solid 1px #ffffff;
-  }
-  @media (max-width: 900px) {
-    width: 100%;
-    padding: 1em 3em;
-    font-size: 18px;
   }
 }
