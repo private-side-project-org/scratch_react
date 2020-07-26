@@ -2,10 +2,10 @@ import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 
-const Layout = () => (
+const Layout = ({ component }) => (
   <div className="layout-container">
     <Navbar />
-    <Home />
+    {component}
   </div>
 );
 
