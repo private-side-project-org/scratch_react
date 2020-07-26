@@ -1,18 +1,23 @@
 import React from 'react';
+import CONSTANTS from '../utils/constants';
 import { Row, Col } from 'react-bootstrap';
 
 const Navbar = () => {
-  return (
-    <Row className="navbar-container">
-      <Col className="navbar-items" xs={12} sm={10} lg={6}>
-        <Col>HOME</Col>
-        <Col>Profile</Col>
-        <Col>Music</Col>
-        <Col>Photos</Col>
-        <Col>Blog</Col>
-      </Col>
-    </Row>
-  );
+  const { NAVITEMS } = CONSTANTS;
+  const listItem = () => {
+    const items = NAVITEMS.map((navItem, key) => (
+      <li className="navbar-items">{navItem}</li>
+    ));
+    return (
+      <Row className="navbar-container">
+        <Col xs={12} sm={8} md={8} lg={6} className="navbar-listcontainer">
+          {items}
+        </Col>
+      </Row>
+    );
+  };
+
+  return listItem();
 };
 
 export default Navbar;
