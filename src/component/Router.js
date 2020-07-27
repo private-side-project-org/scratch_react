@@ -9,7 +9,7 @@ const MainRoute = () => {
   const musicComponent = () => <Layout component={<Music />} />;
   return (
     <Switch>
-      <Route exact path="/" component={homeComponent} />
+      <Route path="/home" component={homeComponent} />
       <Route path="/music" component={musicComponent} />
     </Switch>
   );

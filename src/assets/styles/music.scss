@@ -1,0 +1,33 @@
+.music-container {
+  background-image: url('../musician-349790_1920.jpg');
+}
+
+.album-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10em;
+  padding-left: 30em;
+
+  .album-block {
+    display: flex;
+    align-items: center;
+    .album-text-block {
+      display: flex;
+      flex-direction: column;
+      color: #ffffff;
+      padding-left: 2em;
+      font-size: 24px;
+      .album-title {
+        font-size: 30px;
+      }
+      li {
+        list-style: none;
+        a {
+          padding-left: 3em;
+        }
+      }
+    }
+  }
+}
