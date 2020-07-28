@@ -1,0 +1,17 @@
+.page-container {
+  display: flex;
+  flex-grow: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page-title {
+  display: flex;
+  align-items: flex-start;
+  font-size: 50px;
+  color: #ffffff;
+  margin-left: 2em;
+  margin-top: 2em;
+}
