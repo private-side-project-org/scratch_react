@@ -7,9 +7,23 @@ import facebookIcon from '../assets/facebook.png';
 const IconGroup = () => {
   return (
     <div className="icon-container">
-      <Image className="icon-block" src={instagramIcon} alt="instagramIcon" />
-      <Image className="icon-block" src={twitterIcon} alt="twitterIcon" />
-      <Image className="icon-block" src={facebookIcon} alt="facebookIcon" />
+      <a target="_blank" href="https://www.instagram.com/n_g55555/">
+        <Image
+          className="icon-block background"
+          src={instagramIcon}
+          alt="instagramIcon"
+        />
+      </a>
+      <a target="_blank" href="https://twitter.com/Nakano555G">
+        <Image className="icon-block" src={twitterIcon} alt="twitterIcon" />
+      </a>
+      <a target="_blank" href="https://www.facebook.com/go.nakano.16/">
+        <Image
+          className="icon-block background"
+          src={facebookIcon}
+          alt="facebookIcon"
+        />
+      </a>
     </div>
   );
 };

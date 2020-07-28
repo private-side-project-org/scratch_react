@@ -36,7 +36,7 @@ const Profile = () => {
         </Row>
         <Row className="profile-icon-block">
           <Col md={2}></Col>
-          <Col md={5}>
+          <Col sm={7} md={5}>
             <IconGroup />
           </Col>
           <Col md={3}></Col>

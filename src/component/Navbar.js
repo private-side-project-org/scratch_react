@@ -21,7 +21,7 @@ const Navbar = () => {
     });
     return (
       <Row className="navbar-container">
-        <Col xs={12} sm={8} md={8} lg={6} className="navbar-listcontainer">
+        <Col xs={12} md={8} lg={6} className="navbar-listcontainer">
           {items}
         </Col>
       </Row>
