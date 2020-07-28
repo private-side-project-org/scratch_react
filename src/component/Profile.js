@@ -1,33 +1,46 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
-import facebookIcon from '../assets/facebook.png';
-import instagramIcon from '../assets/instagram.png';
-import twitterIcon from '../assets/twitter.png';
+import IconGroup from './IconGroup';
 
 const Profile = () => {
   return (
     <div className="page-container profile-container">
-      <span>Profile</span>
-      <Row>
-        <Col>
-          <ul>
-            <li>Name</li>
-            <li>Job</li>
-            <li>Email</li>
-          </ul>
-        </Col>
-        <Col>
-          <ul>
-            <li>Go Nakano</li>
-            <li>Software Engineer</li>
-            <li>g.nakano555@gmail.com</li>
-          </ul>
-        </Col>
-      </Row>
-      <div>
-        <Image src={facebookIcon} alt="facebookIcon" />
-        <Image src={instagramIcon} alt="instagramIcon" />
-        <Image src={twitterIcon} alt="twitterIcon" />
+      <span className="page-title">Profile</span>
+      <div className="profile-detail-container">
+        <Row className="profile-row-block">
+          <Col md={2}></Col>
+          <Col md={3}>
+            <span className="profile-text">Name</span>
+          </Col>
+          <Col md={5}>
+            <span>Go Nakano</span>
+          </Col>
+        </Row>
+        <Row className="profile-row-block">
+          <Col md={2}></Col>
+          <Col md={3}>
+            <span className="profile-text">Job</span>
+          </Col>
+          <Col md={5}>
+            <span>Software Engineer</span>
+          </Col>
+        </Row>
+        <Row className="profile-row-block">
+          <Col md={2}></Col>
+          <Col md={3}>
+            <span className="profile-text">Email</span>
+          </Col>
+          <Col md={5}>
+            <span>g.nakano555@gmail.com</span>
+          </Col>
+        </Row>
+        <Row className="profile-icon-block">
+          <Col md={2}></Col>
+          <Col md={5}>
+            <IconGroup />
+          </Col>
+          <Col md={3}></Col>
+        </Row>
       </div>
     </div>
   );
