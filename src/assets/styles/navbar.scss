@@ -1,0 +1,24 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.navbar-listcontainer {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navbar-items {
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  &:hover {
+    border-bottom: solid 1px #ffffff;
+  }
+}
