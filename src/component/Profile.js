@@ -6,7 +6,7 @@ import twitterIcon from '../assets/twitter.png';
 
 const Profile = () => {
   return (
-    <div className="profile-container">
+    <div className="page-container profile-container">
       <span>Profile</span>
       <Row>
         <Col>
