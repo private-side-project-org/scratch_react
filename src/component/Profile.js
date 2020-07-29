@@ -34,10 +34,10 @@ const Profile = () => {
           </Col>
         </Row>
         <Row className="profile-icon-block">
-          <Col sm={7} md={5}>
+          <Col sm={7} md={3}>
             <IconGroup />
           </Col>
-          <Col md={3}></Col>
+          <Col md={5}></Col>
         </Row>
       </div>
     </div>
