@@ -3,29 +3,38 @@ import { Image } from 'react-bootstrap';
 import instagramIcon from '../assets/instagram.png';
 import twitterIcon from '../assets/twitter.png';
 import facebookIcon from '../assets/facebook.png';
+import CONSTANTS from '../utils/constants';
 
 const IconGroup = () => {
-  return (
-    <div className="icon-container">
-      <a target="_blank" href="https://www.instagram.com/n_g55555/">
+  const { ICON_LIST } = CONSTANTS;
+  const iconList = ICON_LIST.map((icon) => {
+    let iconSrc;
+    let iconClass;
+    switch (icon.key) {
+      case 'facebook':
+        iconSrc = facebookIcon;
+        iconClass = 'icon-block background';
+        break;
+      case 'twitter':
+        iconSrc = twitterIcon;
+        iconClass = 'icon-block';
+        break;
+      case 'instagram':
+        iconSrc = instagramIcon;
+        iconClass = 'icon-block background';
+        break;
+    }
+    return (
+      <a target="_blank" key={icon.alt} href={icon.href}>
         <Image
-          className="icon-block background"
-          src={instagramIcon}
-          alt="instagramIcon"
+          className={`icon-block ${iconClass}`}
+          src={iconSrc}
+          alt={icon.alt}
         />
       </a>
-      <a target="_blank" href="https://twitter.com/Nakano555G">
-        <Image className="icon-block" src={twitterIcon} alt="twitterIcon" />
-      </a>
-      <a target="_blank" href="https://www.facebook.com/go.nakano.16/">
-        <Image
-          className="icon-block background"
-          src={facebookIcon}
-          alt="facebookIcon"
-        />
-      </a>
-    </div>
-  );
+    );
+  });
+  return <div className="icon-container">{iconList}</div>;
 };
 
 export default IconGroup;
