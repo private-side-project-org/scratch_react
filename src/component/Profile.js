@@ -1,41 +1,39 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
 import IconGroup from './IconGroup';
+import CONSTANTS from '../utils/constants';
 
 const Profile = () => {
+  const { PROFILE_TITLE, PROFILE_VALUE } = CONSTANTS;
   return (
     <div className="page-container profile-container">
       <span className="page-title">Profile</span>
       <div className="profile-detail-container">
         <Row className="profile-row-block">
-          <Col md={2}></Col>
           <Col md={3}>
-            <span className="profile-text">Name</span>
+            <span className="profile-text">{PROFILE_TITLE.NAME}</span>
           </Col>
           <Col md={5}>
-            <span>Go Nakano</span>
+            <span>{PROFILE_VALUE.NAME}</span>
           </Col>
         </Row>
         <Row className="profile-row-block">
-          <Col md={2}></Col>
           <Col md={3}>
-            <span className="profile-text">Job</span>
+            <span className="profile-text">{PROFILE_TITLE.JOB}</span>
           </Col>
           <Col md={5}>
-            <span>Software Engineer</span>
+            <span>{PROFILE_VALUE.JOB}</span>
           </Col>
         </Row>
         <Row className="profile-row-block">
-          <Col md={2}></Col>
           <Col md={3}>
-            <span className="profile-text">Email</span>
+            <span className="profile-text">{PROFILE_TITLE.EMAIL}</span>
           </Col>
           <Col md={5}>
-            <span>g.nakano555@gmail.com</span>
+            <span>{PROFILE_VALUE.EMAIL}</span>
           </Col>
         </Row>
         <Row className="profile-icon-block">
-          <Col md={2}></Col>
           <Col sm={7} md={5}>
             <IconGroup />
           </Col>
