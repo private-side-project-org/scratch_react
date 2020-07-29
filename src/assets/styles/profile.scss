@@ -1,0 +1,34 @@
+.profile-container {
+  background-image: url('../mam-tor-5393685_1920.jpg');
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+.profile-detail-container {
+  display: flex;
+  padding: 7em 0 7em 5em;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  overflow: scroll;
+  @media (min-width: 1200px) {
+    padding: 4em 0 10em 2em;
+  }
+}
+
+.profile-row-block {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.profile-icon-block {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-text {
+  border-bottom: 1px solid #ffffff;
+}
