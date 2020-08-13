@@ -7,8 +7,10 @@ const ThreeJS = ({ position }) => {
   return (
     <>
       <mesh ref={mesh} position={position}>
-        <torusKnotBufferGeometry attach="geometry" args={[150, 0, 500, 0]} />
+        <torusKnotBufferGeometry attach="geometry" args={[100, 0, 500, 0]} />
         <meshStandardMaterial
+          metalness={0.4}
+          roughness={0.4}
           attach="material"
           color={0x167699}
           emissive={0xa0a1c}
