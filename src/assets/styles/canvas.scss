@@ -1,0 +1,23 @@
+.photo-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: conic-gradient(
+    from 110.02deg at 50% 50%,
+    #1c0e18 0deg,
+    rgba(0, 54, 247, 0) 360deg
+  );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.ellipse {
+  position: absolute;
+  width: 1369.53px;
+  height: 880.27px;
+  left: 761.15px;
+  top: 831px;
+  border: 3px solid #707070;
+  box-sizing: border-box;
+  transform: rotate(43.16deg);
+}
