@@ -6,12 +6,11 @@ body {
 .layout-container {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 100vw !important;
   min-height: 100vh;
 }
 
 .mv-wrapper {
   position: absolute;
-  width: 100vw;
   opacity: 0.8;
 }
