@@ -1,15 +1,16 @@
 .music-container {
-  background-image: url('../musician-349790_1920.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .album-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10em;
-  padding-left: 30em;
-
+  justify-content: flex-end;
+  height: 100%;
+  padding-bottom: 5em;
+  margin-left: 5em;
   .album-block {
     display: flex;
     align-items: center;
