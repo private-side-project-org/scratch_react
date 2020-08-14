@@ -5,10 +5,11 @@ import Home from '../component/Home';
 import Music from '../component/Music';
 import Profile from '../component/Profile';
 import Scene1 from './canvas/components/scene1';
+import MusicLayout from './MusicLayout';
 
 const MainRoute = () => {
   const homeComponent = () => <Layout component={<Home />} />;
-  const musicComponent = () => <Layout component={<Music />} />;
+  const musicComponent = () => <MusicLayout component={<Music />} />;
   const profileComponent = () => <Layout component={<Profile />} />;
   const canvasCompA = () => <Layout component={<Scene1 />} />;
   return (

@@ -22,6 +22,10 @@ module.exports = {
         test: /\.(png|svg|jpg|gif|ttf)$/,
         use: ['file-loader'],
       },
+      {
+        test: /\.mp4$/,
+        use: ['url-loader'],
+      },
     ],
   },
   devServer: {
