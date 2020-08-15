@@ -6,12 +6,12 @@ const MusicLayout = ({ component }) => {
     <div className="embed-container">
       <Navbar />
       <iframe
-        src="https://player.vimeo.com/video/447842582?autoplay=1&loop=1&control=0&background=1"
-        width="100vw"
-        height="100vh"
-        frameBorder="0"
-        allowFullScreen
-        allow="autoplay"
+        src="https://player.vimeo.com/video/448045945?"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
       ></iframe>
       {component}
     </div>
