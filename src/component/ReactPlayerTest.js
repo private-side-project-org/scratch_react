@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
+import ReactPlayer from 'react-player';
 
-const MusicLayout = ({ component }) => {
+const ReactPlayerTest = () => {
   return (
     <div className="embed-container">
-      <Navbar />
       <iframe
         src="https://player.vimeo.com/video/447842582?autoplay=1&loop=1&control=0&background=1"
         width="100vw"
@@ -13,9 +12,8 @@ const MusicLayout = ({ component }) => {
         allowFullScreen
         allow="autoplay"
       ></iframe>
-      {component}
     </div>
   );
 };
 
-export default MusicLayout;
+export default ReactPlayerTest;
