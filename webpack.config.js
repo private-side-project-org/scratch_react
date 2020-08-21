@@ -34,5 +34,10 @@ module.exports = {
     compress: true,
     port: 8080,
   },
-  plugins: [new htmlWebpackPlugin({ template: './index.html' })],
+  plugins: [
+    new htmlWebpackPlugin({
+      template: './index.html',
+      favicon: './src/assets/favicon.png',
+    }),
+  ],
 };
