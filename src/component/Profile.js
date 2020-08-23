@@ -1,10 +1,20 @@
-import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import IconGroup from './IconGroup';
 import CONSTANTS from '../utils/constants';
 
 const Profile = () => {
   const { PROFILE_TITLE, PROFILE_VALUE } = CONSTANTS;
+  const [address, setAddress] = useState('');
+
+  const handleChange = (e) => {
+    if (e.target.value.length >= 7) {
+      fetch(
+        `https://zipcloud.ibsnet.co.jp/api/search?${e.target.value}`
+      ).then((res) => console.log(res));
+    }
+  };
+
   return (
     <div className="page-container profile-container">
       <span className="page-title">Profile</span>
@@ -40,6 +50,7 @@ const Profile = () => {
           <Col md={5}></Col>
         </Row>
       </div>
+      <input type="text" onChange={handleChange} />
     </div>
   );
 };
