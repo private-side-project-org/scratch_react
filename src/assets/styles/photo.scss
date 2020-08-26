@@ -10,13 +10,26 @@
   box-sizing: border-box;
 }
 
-.load-image-container {
+.photo-one-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
-  width: 30vw;
+  height: 40vh;
+  width: 40vw;
   margin: 30em 0 0 5em;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.photo-two-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 40vw;
+  margin: 10em 0 0 70em;
   svg {
     width: 100%;
     height: 100%;
