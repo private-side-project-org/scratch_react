@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@svgr/webpack": "^5.4.0",
+    "animejs": "^3.2.0",
     "bootstrap": "4.5.0",
     "drei": "0.0.72",
     "react": "16.13.1",
