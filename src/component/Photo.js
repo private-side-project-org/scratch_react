@@ -5,7 +5,6 @@ import PhotoOne from './animationPhoto/PhotoOne';
 const Photo = () => {
   return (
     <div className="photo-container">
-      <Navbar />
       <PhotoOne />
     </div>
   );
