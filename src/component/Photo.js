@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, Component } from 'react';
 import Navbar from './Navbar';
 import PhotoOne from './animationPhoto/PhotoOne';
 
-const MusicLayout = ({ component }) => {
-  const [loading, setLoading] = useState(true);
+const Photo = () => {
   return (
     <div className="embed-container">
       <Navbar />
@@ -12,4 +11,4 @@ const MusicLayout = ({ component }) => {
   );
 };
 
-export default MusicLayout;
+export default Photo;
