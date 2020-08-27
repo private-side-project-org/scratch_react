@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div
+  className="page-container home-container"
+>
+  <span
+    className="home-title"
+  >
+    Feel The Nature
+  </span>
+</div>
+`;
