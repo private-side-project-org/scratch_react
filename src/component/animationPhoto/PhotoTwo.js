@@ -206,9 +206,9 @@ const PhotoTwo = () => {
             width="1928"
             height="1088"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -240,7 +240,7 @@ const PhotoTwo = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(960 540) rotate(90) scale(251.053 446.316)"
           >
-            <stop stop-color="#0FF241" />
+            <stop stopColor="#0FF241" />
             <stop offset="1" />
           </radialGradient>
           <linearGradient
@@ -251,8 +251,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear"
@@ -262,8 +262,8 @@ const PhotoTwo = () => {
             y2="539.998"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear"
@@ -273,8 +273,8 @@ const PhotoTwo = () => {
             y2="539.998"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear"
@@ -284,8 +284,8 @@ const PhotoTwo = () => {
             y2="540.002"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear"
@@ -295,8 +295,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint6_linear"
@@ -306,8 +306,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint7_linear"
@@ -317,8 +317,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint8_linear"
@@ -328,8 +328,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint9_linear"
@@ -339,8 +339,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint10_linear"
@@ -350,8 +350,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint11_linear"
@@ -361,8 +361,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint12_linear"
@@ -372,8 +372,8 @@ const PhotoTwo = () => {
             y2="540"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint13_linear"
@@ -383,8 +383,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint14_linear"
@@ -394,8 +394,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint15_linear"
@@ -405,8 +405,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint16_linear"
@@ -416,8 +416,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint17_linear"
@@ -427,8 +427,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint18_linear"
@@ -438,8 +438,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint19_linear"
@@ -449,8 +449,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint20_linear"
@@ -460,8 +460,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint21_linear"
@@ -471,8 +471,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint22_linear"
@@ -482,8 +482,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint23_linear"
@@ -493,8 +493,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint24_linear"
@@ -504,8 +504,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint25_linear"
@@ -515,8 +515,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint26_linear"
@@ -526,8 +526,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint27_linear"
@@ -537,8 +537,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint28_linear"
@@ -548,8 +548,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint29_linear"
@@ -559,8 +559,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint30_linear"
@@ -570,8 +570,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint31_linear"
@@ -581,8 +581,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint32_linear"
@@ -592,8 +592,8 @@ const PhotoTwo = () => {
             y2="740"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint33_linear"
@@ -603,8 +603,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint34_linear"
@@ -614,8 +614,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint35_linear"
@@ -625,8 +625,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint36_linear"
@@ -636,8 +636,8 @@ const PhotoTwo = () => {
             y2="340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#C1E3E6" />
-            <stop offset="1" stop-color="#326819" stop-opacity="0" />
+            <stop stopColor="#C1E3E6" />
+            <stop offset="1" stopColor="#326819" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
