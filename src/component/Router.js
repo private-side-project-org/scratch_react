@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Layout from '../component/Layout';
-import Home from '../component/Home';
+import Home from '../component/page/home/Home';
 import Music from '../component/Music';
 import Profile from '../component/Profile';
 import Scene1 from './canvas/components/scene1';
