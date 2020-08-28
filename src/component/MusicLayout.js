@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Navbar from './Navbar';
+import Loading from './shared/Loading';
 
 const MusicLayout = ({ component }) => {
   const [loading, setLoading] = useState(true);
@@ -10,7 +11,7 @@ const MusicLayout = ({ component }) => {
         onLoad={() => setLoading(false)}
       ></iframe>
       {loading ? (
-        <span classname="load-image-container">LOADING</span>
+        <Loading />
       ) : (
         <>
           <Navbar />

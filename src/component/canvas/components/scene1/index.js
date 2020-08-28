@@ -65,7 +65,7 @@ const ThreeController = () => {
     setY((390 - e.pageY) / 60);
   };
   return (
-    <div className="photo-container">
+    <div className="canvas-container">
       <Canvas
         onMouseMove={mouseEvent}
         shadowMap

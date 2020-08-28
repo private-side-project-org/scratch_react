@@ -20,9 +20,16 @@ const Loading = () => {
     moveUp();
   });
   const wordSplitter = () =>
+<<<<<<< HEAD
     'LOADING...'.split('').map((char, ind) => {
       return (
         <span key={char + ind} ref={ref} className="anime-character">
+=======
+    'LOADING...'.split('').map((char) => {
+      console.log(char);
+      return (
+        <span ref={ref} className="anime-character">
+>>>>>>> 3c5f7b6cc06fbb451a2393575cc06eb0ff221fef
           {char}
         </span>
       );
