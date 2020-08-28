@@ -1,0 +1,52 @@
+.photo-container {
+  position: relative;
+  height: 3240px;
+  background: conic-gradient(
+    from 110.02deg at 50% 50%,
+    #1c0e18 0deg,
+    rgba(0, 54, 247, 0) 360deg
+  );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.photo-one-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 40vw;
+  margin: 30em 0 0 5em;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.photo-two-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 40vw;
+  margin: 10em 0 0 70em;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 10s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 880;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
