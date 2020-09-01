@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import MainRouter from './component/Router';
+import MainRouter from './components/Router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/application.scss';
 const rootContainer = document.getElementById('rootContainer');

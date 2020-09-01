@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import IconGroup from './IconGroup';
-import CONSTANTS from '../utils/constants';
+import CONSTANTS from 'utils/constants';
 
 const Profile = () => {
   const { PROFILE_TITLE, PROFILE_VALUE } = CONSTANTS;
