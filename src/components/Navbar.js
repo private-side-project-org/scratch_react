@@ -1,5 +1,5 @@
 import React from 'react';
-import CONSTANTS from '../utils/constants';
+import CONSTANTS from 'utils/constants';
 import { Row, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 

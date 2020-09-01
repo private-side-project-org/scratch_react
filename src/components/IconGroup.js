@@ -1,9 +1,9 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import instagramIcon from '../assets/instagram.png';
-import twitterIcon from '../assets/twitter.png';
-import facebookIcon from '../assets/facebook.png';
-import CONSTANTS from '../utils/constants';
+import instagramIcon from 'assets/instagram.png';
+import twitterIcon from 'assets/twitter.png';
+import facebookIcon from 'assets/facebook.png';
+import CONSTANTS from 'utils/constants';
 
 const IconGroup = () => {
   const { ICON_LIST } = CONSTANTS;

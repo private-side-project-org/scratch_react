@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Navbar from './Navbar';
-import Loading from './shared/Loading';
+import Navbar from 'components/Navbar';
+import Loading from 'components/shared/Loading';
 
 const MusicLayout = ({ component }) => {
   const [loading, setLoading] = useState(true);

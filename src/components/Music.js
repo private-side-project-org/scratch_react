@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, Row, Col, Container } from 'react-bootstrap';
-import darwinAlbum from '../assets/darwin.jpg';
+import darwinAlbum from 'assets/darwin.jpg';
 
 const Music = () => {
   return (
