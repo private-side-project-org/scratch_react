@@ -2,11 +2,11 @@ import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Layout from 'components/Layout/Layout';
 import Home from 'components/page/home/Home';
-import Music from 'components/Music';
-import Profile from 'components/Profile';
+import Music from 'components/page/music/Music';
+import Profile from 'components/page/profile/Profile';
 import MusicLayout from 'components/Layout/MusicLayout';
 import Scene1 from './canvas/components/scene1';
-import Photo from './Photo';
+import Photo from './page/photo/Photo';
 
 const MainRoute = () => {
   const homeComponent = () => <Layout component={<Home />} />;

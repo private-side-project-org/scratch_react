@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Navbar from 'components/Navbar';
+import Navbar from 'components/shared/Navbar';
 import Loading from 'components/shared/Loading';
 
 const MusicLayout = ({ component }) => {
