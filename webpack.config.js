@@ -3,7 +3,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/main.js',
+  entry: ['@babel/polyfill', './src/main.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
@@ -39,5 +39,6 @@ module.exports = {
       template: './index.html',
       favicon: './src/assets/favicon.png',
     }),
+    new webPack.definePlugin(env),
   ],
 };
