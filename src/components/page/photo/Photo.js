@@ -1,6 +1,6 @@
 import React from 'react';
-import PhotoOne from '../../animationPhoto/PhotoOne';
-import PhotoTwo from '../../animationPhoto/PhotoTwo';
+import PhotoOne from './animationPhoto/PhotoOne';
+import PhotoTwo from './animationPhoto/PhotoTwo';
 
 const Photo = () => {
   return (

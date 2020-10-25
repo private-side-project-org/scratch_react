@@ -1,14 +1,50 @@
 import React from 'react';
+import anime from 'animejs';
 
 const PhotoTwo = () => {
+  const handleEnter = () => {
+    return anime({
+      targets: '.photo-two-item',
+      translateX: {
+        value: 250,
+        duration: 800,
+      },
+      rotate: {
+        value: 360,
+        duration: 1800,
+        easing: 'easeInOutSine',
+      },
+      scale: {
+        value: 3,
+        duration: 1600,
+        delay: 800,
+        easing: 'easeInOutQuart',
+      },
+      delay: 250,
+    });
+  };
+  const handleLeave = () => {
+    return anime({
+      targets: '.photo-two-item',
+      easing: 'easeOutExpo',
+      translateX: 0,
+      roteta: { value: 0 },
+      scale: 1,
+    });
+  };
   return (
-    <span className="photo-two-container">
+    <span
+      className="photo-two-container"
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
+    >
       <svg
         width="1928"
         height="1088"
         viewBox="0 0 1928 1088"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="photo-two-item"
       >
         <g filter="url(#filter0_d)">
           <rect
