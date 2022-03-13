@@ -4,13 +4,20 @@
   "description": "review initial setup react app without create-react-app",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "test",
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve"
+=======
+    "test": "jest",
+    "build": "webpack --config webpack.config.js --prod",
+    "start": "webpack-dev-server"
+>>>>>>> 6035f1de3e76a2cc8a833c10df67a2d6bd0f19a9
   },
   "author": "go nakano",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@react-three/drei": "8.16.5",
     "@react-three/fiber": "^7.0.26",
     "bootstrap": "5.1.3",
@@ -36,5 +43,39 @@
     "webpack": "5.70.0",
     "webpack-cli": "4.9.2",
     "webpack-dev-server": "4.7.4"
+=======
+    "animejs": "3.2.0",
+    "bootstrap": "4.5.0",
+    "drei": "0.0.72",
+    "jest": "26.4.2",
+    "react": "16.13.1",
+    "react-app-polyfill": "2.0.0",
+    "react-bootstrap": "1.3.0",
+    "react-dom": "16.13.1",
+    "react-query": "2.25.2",
+    "react-router-dom": "5.2.0",
+    "react-spring": "8.0.27",
+    "react-test-renderer": "16.13.1",
+    "react-three-fiber": "4.2.18",
+    "three": "0.137.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.5",
+    "@babel/polyfill": "7.12.1",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "babel-loader": "8.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "css-loader": "3.6.0",
+    "file-loader": "6.0.0",
+    "html-webpack-plugin": "4.3.0",
+    "node-sass": "4.14.1",
+    "sass-loader": "9.0.2",
+    "style-loader": "1.2.1",
+    "url-loader": "4.1.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+>>>>>>> 6035f1de3e76a2cc8a833c10df67a2d6bd0f19a9
   }
 }

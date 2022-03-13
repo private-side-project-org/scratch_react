@@ -3,7 +3,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/main.js',
+  entry: ['@babel/polyfill', './src/main.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
@@ -26,6 +26,10 @@ module.exports = {
         test: /\.mp4$/,
         type: 'asset/inline',
       },
+      {
+        test: /\.mp4$/,
+        use: ['url-loader'],
+      },
     ],
   },
   devServer: {
@@ -36,5 +40,11 @@ module.exports = {
       directory: path.resolve(__dirname, 'build'),
     },
   },
-  plugins: [new htmlWebpackPlugin({ template: './index.html' })],
+  plugins: [
+    new htmlWebpackPlugin({
+      template: './index.html',
+      favicon: './src/assets/favicon.png',
+    }),
+    new webPack.definePlugin(env),
+  ],
 };
