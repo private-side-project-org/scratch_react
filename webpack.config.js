@@ -26,10 +26,6 @@ module.exports = {
         test: /\.mp4$/,
         type: 'asset/inline',
       },
-      {
-        test: /\.mp4$/,
-        use: ['url-loader'],
-      },
     ],
   },
   devServer: {
