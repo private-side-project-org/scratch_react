@@ -20,15 +20,21 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif|ttf)$/,
-        use: ['file-loader'],
+        type: 'asset/resource',
+      },
+      {
+        test: /\.mp4$/,
+        type: 'asset/inline',
       },
     ],
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.join(__dirname, 'build'),
     compress: true,
     port: 8080,
+    static: {
+      directory: path.resolve(__dirname, 'build'),
+    },
   },
   plugins: [new htmlWebpackPlugin({ template: './index.html' })],
 };

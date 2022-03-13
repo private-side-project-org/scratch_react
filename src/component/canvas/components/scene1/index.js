@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Canvas } from 'react-three-fiber';
-import { softShadows, OrbitControls } from 'drei';
+import { Canvas } from '@react-three/fiber';
+import { softShadows } from '@react-three/drei';
 import ThreeJS from './ThreeJS';
 import ThreeJS2 from './ThreeJS2';
 

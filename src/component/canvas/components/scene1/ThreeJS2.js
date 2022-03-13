@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { useFrame } from 'react-three-fiber';
-import { MeshWobbleMaterial } from 'drei';
+import { useFrame } from '@react-three/fiber';
+import { MeshWobbleMaterial } from '@react-three/drei';
 
 const ThreeJS2 = ({ position, args, color, frameSpeed }) => {
   const mesh = useRef(null);
