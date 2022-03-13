@@ -41,6 +41,5 @@ module.exports = {
       template: './index.html',
       favicon: './src/assets/favicon.png',
     }),
-    new webPack.definePlugin(env),
   ],
 };
